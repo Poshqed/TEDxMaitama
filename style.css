@@ -34,7 +34,7 @@ header .logo img {
 
 }
 
-header .navbar ul li {
+header .navbar nav a {
     font-weight: 300;
     text-align: center;
     letter-spacing: 1.6px;
@@ -42,9 +42,10 @@ header .navbar ul li {
     position: absolute;
     list-style: none;
     font-size: 20px;
+    text-decoration: none;
 }
 
-header .navbar ul li.event {
+header .navbar nav a.event {
     position: absolute;
     top: 63px;
     left: 1122px;
@@ -52,7 +53,7 @@ header .navbar ul li.event {
     height: 23px;
 }
 
-header .navbar ul li.about {
+header .navbar nav a.about {
     position: absolute;
     top: 63px;
     left: 1268px;
@@ -60,7 +61,7 @@ header .navbar ul li.about {
     height: 23px;
 }
 
-header .navbar ul li.contact {
+header .navbar nav a.contact {
     position: absolute;
     top: 63px;
     left: 1404px;
@@ -69,7 +70,7 @@ header .navbar ul li.contact {
 
 }
 
-header .navbar ul li.get-tickets {
+header .navbar nav a.get-tickets {
     position: absolute;
     top: 63px;
     left: 1591px;
@@ -81,16 +82,16 @@ header .navbar ul li.get-tickets {
 
 
 
-header .navbar ul li.get-tickets .fa-arrow-right {
+header .navbar nav a.get-tickets .fa-arrow-right {
     position: absolute;
     left: 170px;
 }
 
-header .navbar ul div.background:hover {
+header .navbar nav div.background:hover {
     background-color: var(--color-six);
 }
 
-header .navbar ul div.background {
+header .navbar nav .background {
     top: 38px;
     left: 1538px;
     width: 272px;
@@ -99,6 +100,15 @@ header .navbar ul div.background {
     position: absolute;
     background-color: var(--color-four);
     cursor: pointer;
+}
+
+img.effect {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1076px;
+    opacity: 1;
 }
 
 section.showcase img {
@@ -257,11 +267,10 @@ section.cta .get-tickets {
     color: var(--color-eight);
     font-size: 16px;
     letter-spacing: 1.28px;
+    cursor: pointer;
 }
 
-section.cta .get-tickets:hover {
-    background-color: var(--color-six)
-}
+
 
 section.cta .get-tickets .fa-arrow-right {
     left: 150px;

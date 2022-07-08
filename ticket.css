@@ -1,0 +1,209 @@
+:root {
+    /* Colors: */
+    --color-one: #CECECE;
+    --color-two: #727272;
+    --color-three: #E4E4E4;
+    --color-four: #FFFFFF;
+    --color-five: #FF9500;
+    --color-six: #414042;
+    --color-seven: #202022;
+    --color-eight: #000000;
+    --color-nine: #FF2B06;
+}
+
+body {
+    background-color: #000000;
+    color: var(--color-four);
+    font-family: 'Helvetica', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 20px;
+    width: 450px;
+    max-width: 100%;
+    background: url(Assets/images/Group\ 74.png) no-repeat fixed center;
+}
+
+header .logo img {
+    position: absolute;
+    top: 48px;
+    left: 141px;
+    width: 257px;
+    height: 49px;
+
+}
+
+header .navbar ul li {
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 1.6px;
+    cursor: pointer;
+    position: absolute;
+    list-style: none;
+    font-size: 20px;
+}
+
+header .navbar ul li.event {
+    position: absolute;
+    top: 63px;
+    left: 1122px;
+    width: 82px;
+    height: 23px;
+}
+
+header .navbar ul li.about {
+    position: absolute;
+    top: 63px;
+    left: 1268px;
+    width: 72px;
+    height: 23px;
+}
+
+header .navbar ul li.contact {
+    position: absolute;
+    top: 63px;
+    left: 1404px;
+    width: 100px;
+    height: 23px;
+
+}
+
+header .navbar ul li.get-tickets {
+    position: absolute;
+    top: 63px;
+    left: 1591px;
+    width: 150px;
+    height: 19px;
+    color: var(--color-eight);
+    z-index: 1;
+}
+
+
+
+header .navbar ul li.get-tickets .fa-arrow-right {
+    position: absolute;
+    left: 170px;
+}
+
+header .navbar ul div.background:hover {
+    background-color: var(--color-six);
+}
+
+header .navbar ul div.background {
+    top: 38px;
+    left: 1538px;
+    width: 272px;
+    height: 69px;
+    border-radius: 38px;
+    position: absolute;
+    background-color: var(--color-four);
+    cursor: pointer;
+}
+
+img.effect {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1076px;
+    opacity: 1;
+}
+
+h1.ticket-price {
+    position: absolute;
+    top: 280px;
+    left: 614px;
+    width: 693px;
+    height: 103px;
+    font-size: 86px;
+    text-align: left;
+    color: var(--color-one);
+}
+
+/* section.banners .banner-one {
+    position: absolute;
+    top: 612px;
+    left: 144px;
+    width: 520px;
+    height: 1059px;
+    background: var(--color-four) 0% 0% no-repeat padding-box;
+    border: 2px solid var(--unnamed-color-ff9500);
+    border: 2px solid var(--color-five);
+    border-radius: 10px;
+
+} */
+
+p:first-child {
+    position: absolute;
+    top: 653px;
+    left: 357px;
+    width: 94px;
+    height: 34px;
+    font: normal normal bold 29px/52px 'Helvetica Neue', sans-serif;
+    text-align: center;
+    letter-spacing: 1.45px;
+    color: var(--color-six);
+}
+
+p:nth-child(2) {
+    position: absolute;
+    top: 724px;
+    left: 202px;
+    width: 34px;
+    height: 57px;
+    text-decoration: double line-through;
+    font: normal normal bold 48px/87px 'Helvetica Neue', sans-serif;
+    text-align: center;
+    letter-spacing: -2.4px;
+    color: var(--color-six);
+
+}
+
+p:nth-child(3) {
+    position: absolute;
+    top: 654px;
+    left: 267px;
+    width: 230px;
+    height: 110px;
+    font: normal normal bold 92px/166px 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: var(--color-six);
+}
+
+p:nth-child(4) {
+    position: absolute;
+    top: 807px;
+    left: 535px;
+    width: 51px;
+    height: 42px;
+    font: normal normal medium 16px/23px 'Helvetica Neue', sans-serif;
+    text-align: left;
+    color: var(--color-two);
+}
+
+p:nth-child(5) {
+    position: absolute;
+    top: 870px;
+    left: 251px;
+    width: 218px;
+    height: 34px;
+    font: normal normal bold 29px/52px 'Helvetica Neue', sans-serif;
+    text-align: center;
+    letter-spacing: 1.45px;
+    color: var(--color-two);
+    font-weight: 300;
+    text-decoration: line-through;
+    text-decoration-thickness: 0.1px;
+}
+
+p:nth-child(6) {
+    position: absolute;
+    top: 830px;
+    left: 421px;
+    width: 104px;
+    height: 34px;
+    font: normal normal medium 29px/52px 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: var(--color-eight);
+}
